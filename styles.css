@@ -14,17 +14,20 @@ body {
     height: 100vh; 
     margin: 0;
     background-color: hsl(30, 38%, 92%);
+    min-height: 50rem;
 }
 
 .card {
     width: 90%;
     max-width: 25rem; /* 25rem = 25 * 16px = 400px (default browser font size) */
     background-color: hsl(0, 0%, 100%);
-    border-radius: 0.625rem; /* 10px */
+    border-radius: 1rem; 
 }
 
 .hero__img {
     width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
 }
 
 .content {
