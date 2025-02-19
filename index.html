@@ -16,9 +16,10 @@
 </head>
 <body>
   <section class="card">
-    <figure class="hero">
-      <img class="hero__img"src="images/image-product-mobile.jpg" alt="Photo of chanel perfume">
-    </figure>
+    <picture class="hero">
+      <source srcset="images/image-product-desktop.jpg" alt="Photo of chanel perfume" media="(min-width: 1024px)">
+      <img class="hero__img" src="images/image-product-mobile.jpg" alt="Photo of chanel perfume">
+    </picture>
     <main class="content">
       <section class="prod">
         <p class="prod__category">PERFUME</p>
